@@ -1,4 +1,5 @@
 # Load Microsoft.SMS.TSEnvironment COM object
+
 try {
     $TSEnvironment = New-Object -ComObject Microsoft.SMS.TSEnvironment -ErrorAction Stop
 }
