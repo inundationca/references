@@ -2,7 +2,7 @@
 $TPMStatus = Get-TPM
 
 if ($TPMStatus.TPMPresent -eq $False) {
-    Exit 0
+    Exit 1
 }
 
 # Check if BitLocker is installed; install if not available.
